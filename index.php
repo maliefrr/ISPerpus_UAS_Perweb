@@ -1,3 +1,7 @@
+<?php
+    include "./controller/connection.php";
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,10 +18,10 @@
             <div class="col-md-4"></div>
             <div class="col-md">
                 <h2 class="text-center mt-4">Login</h2>
-                <form autocomplete="off" class="mt-4">
+                <form autocomplete="off" class="mt-4" method="GET" action="./controller/login.php">
                     <div class="mb-3">
                         <label for="username" class="form-label">Username</label>
-                        <input type="email" class="form-control" id="username" name="username">
+                        <input type="text" class="form-control" id="username" name="username">
                     </div>
                     <div class="mb-3">
                         <label for="password" class="form-label">Password</label>
