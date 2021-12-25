@@ -4,7 +4,7 @@
     $password = $_GET['password'];
 
     if($username == 'admin' && $password == 'admin'){
-        header("Location:../mahasiswa.php");
+        header("Location:../dashboard_admin.php");
     } else {
         header("Location:../pinjam.php");
     }
