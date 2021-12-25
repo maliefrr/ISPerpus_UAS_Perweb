@@ -22,7 +22,7 @@
                     $data = $db -> query("SELECT * FROM mahasiswa WHERE id_mahasiswa='$_GET[id]'");
                     $edit = $data -> fetch_array();
                 ?>
-                <form method="POST" action="./controller/insert_mhs.php">
+                <form method="POST" action="./controller/update_mahasiswa.php">
                     <input type="hidden" name="id" value="<?php echo $edit['id_mahasiswa']?>">
                     <div class="mb-3">
                         <label for="nim" class="form-label">NIM</label>
