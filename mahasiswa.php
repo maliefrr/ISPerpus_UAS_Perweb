@@ -39,17 +39,17 @@
                             $data = $db -> query("SELECT * FROM mahasiswa");
                             $number = 1;
                             while($data_mahasiswa = $data -> fetch_array()){
-                                echo "
+                                ?>
                                     <tr>
-                                    <th scope='row'>$number</th>
-                                    <td>$data_mahasiswa[nama]</td>
-                                    <td>$data_mahasiswa[nim]</td>
+                                    <th scope="row"><?php echo $number?></th>
+                                    <td><?php echo $data_mahasiswa['nama'] ?></td>
+                                    <td><?php echo $data_mahasiswa['nim']?></td>
                                     <td>
-                                    <a class='btn btn-primary badge' href='edit_mahasiswa.php?id=$data_mahasiswa[id_mahasiswa]'>Edit</a>
-                                        <a class='btn btn-danger badge'>Delete</a>
+                                    <a class="btn btn-primary badge" href="edit_mahasiswa.php?id=<?php echo $data_mahasiswa['id_mahasiswa']?>">Edit</a>
+                                    <a class="btn btn-danger badge" href="./controller/delete_mahasiswa.php?id=<?php echo $data_mahasiswa['id_mahasiswa'] ?>">Delete</a>
                                     </td>
                                     </tr>
-                                    ";
+                            <?php
                                 $number++;
                             }
                             ?>
