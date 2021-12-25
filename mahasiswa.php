@@ -45,7 +45,7 @@
                                     <td>$data_mahasiswa[nama]</td>
                                     <td>$data_mahasiswa[nim]</td>
                                     <td>
-                                    <a class='btn btn-primary badge' href='edit.php?id=$data_mahasiswa[id_mahasiswa]'>Edit</a>
+                                    <a class='btn btn-primary badge' href='edit_mahasiswa.php?id=$data_mahasiswa[id_mahasiswa]'>Edit</a>
                                         <a class='btn btn-danger badge'>Delete</a>
                                     </td>
                                     </tr>
