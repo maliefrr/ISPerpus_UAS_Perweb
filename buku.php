@@ -20,7 +20,7 @@
             <div class="col-md">
                 <h2 class="text-center mt-4">Data Buku</h2>
                 <div class="mhs_button mt-4">
-                    <a href="add_data.php" class="btn btn-primary">Tambah Data</a>
+                    <a href="add_data_buku.php" class="btn btn-primary">Tambah Data</a>
                     <div class="logout">
                         <a href="index.php" class="btn btn-danger badge mt-3">Logout</a>
                     </div>
