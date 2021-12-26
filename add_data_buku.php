@@ -13,7 +13,7 @@
     <title>Library Information System</title>
 </head>
 <body>
-    <h3 class="text-center mt-4">Form Tambah Data Mahasiswa</h3>
+    <h3 class="text-center mt-4">Form Tambah Data Buku</h3>
     <div class="container">
         <div class="row">
             <div class="col-md-3"></div>
