@@ -15,6 +15,7 @@
                 <h4 class="text-center mt-4">Admin Dashboard</h4>
                 <ul>
                     <li><a href="mahasiswa.php">Data Mahasiswa</a></li>
+                    <li><a href="buku.php">Data Buku</a></li>
                 </ul>
             </div>
             <div class="col-md-3"></div>
