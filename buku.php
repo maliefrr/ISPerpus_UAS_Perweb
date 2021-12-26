@@ -50,7 +50,7 @@
                                     <td><?php echo $data_buku['tahun_terbit']?></td>
                                     <td>
                                     <a class="btn btn-primary badge" href="edit_buku.php?id=<?php echo $data_buku['id_buku']?>">Edit</a>
-                                    <a class="btn btn-danger badge" href="./controller/delete_mahasiswa.php?id=<?php echo $data_buku['id_buku'] ?>">Delete</a>
+                                    <a class="btn btn-danger badge" href="./controller/delete_buku.php?id=<?php echo $data_buku['id_buku'] ?>">Delete</a>
                                     </td>
                                     </tr>
                             <?php
