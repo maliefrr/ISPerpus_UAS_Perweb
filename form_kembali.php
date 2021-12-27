@@ -13,7 +13,7 @@
     <title>Library Information System</title>
 </head>
 <body>
-    <h3 class="text-center mt-4">Form Peminjaman</h3>
+    <h3 class="text-center mt-4">Form Pengembalian</h3>
     <div class="container">
         <div class="row">
             <div class="col-md-3"></div>
@@ -39,8 +39,8 @@
                         <?php }?>
                     </select>
                     <div class="mt-4 mb-4">
-                        <label for="tanggal_pinjam" class="form-label">Tanggal Peminjaman</label>
-                        <input type="date" name="tanggal_peminjaman" id="tanggal_pinjam" class="form-control">
+                        <label for="tanggal_pengembalian" class="form-label">Tanggal Pengembalian</label>
+                        <input type="date" name="tanggal_pengembalian" id="tanggal_pengembalian" class="form-control">
                     </div>
                     <button type="submit" class="btn btn-primary">Simpan</button>
                     <button type="reset" class="btn btn-danger">Cancel</button>
