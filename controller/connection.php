@@ -11,6 +11,4 @@
     } else {
         echo "<script>console.log('Database Connected');</script>" ;  
     }
-
-
 ?>

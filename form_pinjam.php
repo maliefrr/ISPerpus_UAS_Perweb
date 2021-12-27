@@ -20,7 +20,7 @@
             <div class="col-md">
 
                 <form method="POST" action="./controller/insert_pinjam.php">
-                    <select class="form-select mt-4 " aria-label="Default select example">
+                    <select class="form-select mt-4 " aria-label="Default select example" name="judul">
                         <option selected disabled="true">Judul Buku</option>
                         <?php
                             $data = $db -> query("SELECT * FROM buku");
@@ -29,7 +29,7 @@
                         <option value="<?php echo $data_buku['id_buku']?>"><?php echo $data_buku['judul_buku'] ?></option>
                         <?php }?>
                     </select>
-                    <select class="form-select mt-4" aria-label="Default select example">
+                    <select class="form-select mt-4" aria-label="Default select example" name="nama">
                         <option selected disabled="true">Nama Peminjam</option>
                         <?php
                             $data = $db -> query("SELECT * FROM mahasiswa");
