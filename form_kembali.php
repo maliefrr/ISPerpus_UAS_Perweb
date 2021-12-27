@@ -19,8 +19,8 @@
             <div class="col-md-3"></div>
             <div class="col-md">
 
-                <form method="POST" action="./controller/insert_pinjam.php">
-                    <select class="form-select mt-4 " aria-label="Default select example">
+                <form method="POST" action="./controller/insert_kembali.php">
+                    <select class="form-select mt-4 " aria-label="Default select example" name="judul">
                         <option selected disabled="true">Judul Buku</option>
                         <?php
                             $data = $db -> query("SELECT * FROM buku");
@@ -29,7 +29,7 @@
                         <option value="<?php echo $data_buku['id_buku']?>"><?php echo $data_buku['judul_buku'] ?></option>
                         <?php }?>
                     </select>
-                    <select class="form-select mt-4" aria-label="Default select example">
+                    <select class="form-select mt-4" aria-label="Default select example" name="nama">
                         <option selected disabled="true">Nama Peminjam</option>
                         <?php
                             $data = $db -> query("SELECT * FROM mahasiswa");
@@ -39,8 +39,8 @@
                         <?php }?>
                     </select>
                     <div class="mt-4 mb-4">
-                        <label for="tanggal_pengembalian" class="form-label">Tanggal Pengembalian</label>
-                        <input type="date" name="tanggal_pengembalian" id="tanggal_pengembalian" class="form-control">
+                        <label for="tanggal_pinjam" class="form-label">Tanggal Peminjaman</label>
+                        <input type="date" name="tanggal_pengembalian" id="tanggal_pinjam" class="form-control">
                     </div>
                     <button type="submit" class="btn btn-primary">Simpan</button>
                     <button type="reset" class="btn btn-danger">Cancel</button>
