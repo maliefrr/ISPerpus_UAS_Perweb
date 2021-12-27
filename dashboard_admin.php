@@ -16,6 +16,7 @@
                 <ul>
                     <li><a href="mahasiswa.php">Data Mahasiswa</a></li>
                     <li><a href="buku.php">Data Buku</a></li>
+                    <li><a href="form_pinjam.php">Form Peminjaman</a></li>
                 </ul>
             </div>
             <div class="col-md-3"></div>
