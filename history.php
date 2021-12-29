@@ -18,10 +18,10 @@
         <div class="row">
             <div class="col-md-2"></div>
             <div class="col-md">
-                <h2 class="text-center mt-4">Log Transaksi Peminjaman</h2>
+                <h2 class="text-center mt-4">History Peminjaman</h2>
                 <div class="text-end mt-4">
                     <div class="logout">
-                        <a href="index.php" class="btn btn-danger badge mt-3">Logout</a>
+                        <a href="index.php" class="btn btn-primary badge mt-3">Back</a>
                     </div>
                 </div>
                 <table class="table mt-4">
@@ -36,7 +36,7 @@
                     </thead>
                     <tbody>
                         <?php 
-                            $data = $db -> query("SELECT buku.judul_buku,mahasiswa.nama,transaksi.tanggal_peminjaman,transaksi.tanggal_pengembalian FROM buku INNER JOIN transaksi ON transaksi.id_buku = buku.id_buku INNER JOIN mahasiswa ON transaksi.id_mahasiswa = mahasiswa.id_mahasiswa");
+                            $data = $db -> query("SELECT buku.judul_buku,mahasiswa.nama,transaksi.tanggal_peminjaman,transaksi.tanggal_pengembalian FROM buku INNER JOIN transaksi ON transaksi.id_buku = buku.id_buku INNER JOIN mahasiswa ON transaksi.id_mahasiswa = mahasiswa.id_mahasiswa WHERE nim='$_GET[id]'");
                             $number = 1;
                             while($data_mahasiswa = $data -> fetch_array()){
                                 ?>

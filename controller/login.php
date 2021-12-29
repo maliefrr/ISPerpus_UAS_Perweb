@@ -6,6 +6,6 @@
     if($username == 'admin' && $password == 'admin'){
         header("Location:../dashboard_admin.php");
     } else {
-        header("Location:../pinjam.php");
+        header("Location:../history.php?id=$username");
     }
 ?>
