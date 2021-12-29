@@ -43,7 +43,7 @@
                         <input type="date" name="tanggal_peminjaman" id="tanggal_pinjam" class="form-control">
                     </div>
                     <button type="submit" class="btn btn-primary">Simpan</button>
-                    <button type="reset" class="btn btn-danger">Cancel</button>
+                    <a class="btn btn-danger" href="dashboard_admin.php">Cancel</a>
                 </form>
             </div>
             <div class="col-md-3"></div>

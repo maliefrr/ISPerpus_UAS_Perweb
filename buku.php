@@ -20,9 +20,9 @@
             <div class="col-md">
                 <h2 class="text-center mt-4">Data Buku</h2>
                 <div class="mhs_button mt-4">
-                    <a href="add_data_buku.php" class="btn btn-primary">Tambah Data</a>
+                    <button class="btn" style="background-color: rgb(255, 198, 11);" onclick="window.location.replace('add_data_buku.php')">Tambah Data</button>
                     <div class="logout">
-                        <a href="index.php" class="btn btn-danger badge mt-3">Logout</a>
+                        <a href="dashboard_admin.php" class="btn btn-primary badge mt-3">back</a>
                     </div>
                 </div>
                 <table class="table mt-4">

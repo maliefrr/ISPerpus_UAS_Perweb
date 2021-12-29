@@ -6,9 +6,13 @@
 
 .mhs_button {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
+}
+
+.mhs_button button:hover {
+	background-color: blueviolet;
 }
 
 .myButton {
-	background-color: rgb(230, 134, 8);
+	background-color: aquamarine;
 }

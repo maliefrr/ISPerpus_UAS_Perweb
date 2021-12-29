@@ -21,7 +21,7 @@
                 <h2 class="text-center mt-4">Log Transaksi Peminjaman</h2>
                 <div class="text-end mt-4">
                     <div class="logout">
-                        <a href="index.php" class="btn btn-danger badge mt-3">Logout</a>
+                        <a href="dashboard_admin.php" class="btn btn-primary badge mt-3">back</a>
                     </div>
                 </div>
                 <table class="table mt-4">

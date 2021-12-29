@@ -12,6 +12,9 @@
         <div class="row">
             <div class="col-md-3"></div>
             <div class="col-md">
+                <div class="logout text-end">
+                    <a href="index.php" class="btn btn-danger mt-4 badge">logout</a>
+                </div>
                 <h4 class="text-center mt-4">Admin Dashboard</h4>
                 <ul>
                     <li><a href="mahasiswa.php">Data Mahasiswa</a></li>
